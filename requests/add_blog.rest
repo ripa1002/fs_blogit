@@ -1,9 +1,11 @@
-POST http://localhost:3003/api/blogs
+POST http://localhost:3001/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RpIiwiaWQiOiI1YTkzMGRhY2I0ZWMzNDdjNWMxOWQ2NzEiLCJpYXQiOjE1MTk1OTM4MzJ9.G9XG5t3_tBVh4fH04WEhEd7all96ib2NDFo4JVgTdhQ
 
 {
-    "title": "Testitkolmas",
-    "author": "Testi Tester",
+    "title": "Testisdasddfgdsffsdsasaas",
+    "author": "Tesdassti",
     "url": "www.testit.fi",
-    "likes": 12
+    "likes": 16,
+    "user": "5a930dacb4ec347c5c19d671"
 }
